@@ -1,0 +1,15 @@
+pkgbase = clpeak-git
+	pkgdesc = A tool which profiles OpenCL devices to find their peak capacities
+	pkgver = 1.0.1.250.g44f81f0
+	pkgrel = 1
+	url = https://github.com/krrishnarraj/clpeak
+	arch = any
+	license = Public Domain
+	makedepends = git
+	provides = clpeak
+	conflicts = clpeak
+	source = git+https://github.com/krrishnarraj/clpeak.git
+	md5sums = SKIP
+
+pkgname = clpeak-git
+
