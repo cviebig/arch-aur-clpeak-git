@@ -3,7 +3,7 @@ pkgver=1.0.42.g16bea68
 pkgrel=1
 pkgdesc="A tool which profiles OpenCL devices to find their peak capacities"
 
-arch=('any')
+arch=(i686 x86_64)
 url="https://github.com/krrishnarraj/clpeak"
 license=('Public domain')
 conflicts=('clpeak')
